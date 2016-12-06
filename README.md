@@ -13,7 +13,7 @@ A simple script that emails me when my public IP Address has changed. Runs every
 3. Set the email address that you want to send *from* as fromAddress
 4. Set the password for the fromAddress in pswd
 5. Set the email address that you want to email *to* as toAddress
-6. To run, enter the following
+6. To run in the background, enter the following. 
 ```
-sudo ./notifier.py
+sudo ./notifier.py &
 ```
